@@ -13,7 +13,5 @@ public interface ImagesClient {
     @GetMapping("/photo.txt")
     List<ExternalImage> getImages();
 
-    @GetMapping("/")
-    List<ExternalImage> getImage(@PathVariable("imagePath") String imagePath);
 
 }
